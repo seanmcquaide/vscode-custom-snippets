@@ -1,0 +1,2424 @@
+{
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	// to-do: add xml support
+// Region HREFLANG HTML Snippets
+"APAC Countries hreflang": {
+	"prefix": "hreflang:APAC Countries",
+	"scope": "html",
+	"body": [
+		"<!-- American Samoa -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"sm-as\" />",
+		"<!-- Australia -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-au\" />",
+		"<!-- Bangladesh -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"bn-bd\" />",
+		"<!-- Bhutan -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"dz-bt\" />",
+		"<!-- China -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"zh-cn\" />",
+		"<!-- Fiji -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-fj\" />",
+		"<!-- Micronesia -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-fm\" />",
+		"<!-- Guam -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-gu\" />",
+		"<!-- Hong Kong -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"zh-hk\" />",
+		"<!-- Indonesia -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"id-id\" />",
+		"<!-- India -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"hi-in\" />",
+		"<!-- British Indian Ocean Territory -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-io\" />",
+		"<!-- Japan -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ja-jp\" />",
+		"<!-- Cambodia -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"km-kh\" />",
+		"<!-- Kiribati -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-ki\" />",
+		"<!-- North Korea -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ko-kp\" />",
+		"<!-- South Korea -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ko-kr\" />",
+		"<!-- Laos -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"lo-la\" />",
+		"<!-- Sri Lanka -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"si-lk\" />",
+		"<!-- Marshall Islands -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"mh-mh\" />",
+		"<!-- Myanmar -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"my-mm\" />",
+		"<!-- Mongolia -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"mn-mn\" />",
+		"<!-- Macao -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"zh-mo\" />",
+		"<!-- Northern Mariana Islands -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ch-mp\" />",
+		"<!-- Maldives -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"dv-mv\" />",
+		"<!-- Malaysia -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ms-my\" />",
+		"<!-- Norfolk Island -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-nf\" />",
+		"<!-- Nepal -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ne-np\" />",
+		"<!-- Nauru -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"na-nr\" />",
+		"<!-- New Zealand -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-nz\" />",
+		"<!-- Pakistan -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-pk\" />",
+		"<!-- Pitcairn -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-pn\" />",
+		"<!-- Palau -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-pw\" />",
+		"<!-- Singapore -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"zh-sg\" />",
+		"<!-- Thailand -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"th-th\" />",
+		"<!-- Tonga -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"to-to\" />",
+		"<!-- Taiwan -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"zh-tw\" />",
+		"<!-- United States Minor Outlying Islands -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-um\" />",
+		"<!-- Vietnam -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"vi-vn\" />",
+		"<!-- Vanuatu -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"bi-vu\" />",
+		"<!-- Samoa -->",
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"sm-ws\" />",
+	],
+	"description": "Inserts the hreflang code for all APAC countries."
+},
+"EMEA Countries": {
+"prefix": "hreflang:EMEA Countries",
+"scope": "html",
+"body": [
+	"<!-- Andorra -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ca-ad\" />",
+	"<!-- United Arab Emirates -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-ae\" />",
+	"<!-- Afghanistan -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fa-af\" />",
+	"<!-- Albania -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"sq-al\" />",
+	"<!-- Armenia -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"hy-am\" />",
+	"<!-- Netherlands -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"nl-an\" />",
+	"<!-- Angola -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"pt-ao\" />",
+	"<!-- Austria -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"de-at\" />",
+	"<!-- Azerbaijan -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"az-az\" />",
+	"<!-- Bosnia and Herzegovina -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"bs-ba\" />",
+	"<!-- Belgium -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"nl-be\" />",
+	"<!-- Burkina Faso -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-bf\" />",
+	"<!-- Bulgaria -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"bg-bg\" />",
+	"<!-- Bahrain -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-bh\" />",
+	"<!-- Burundi -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"rn-bi\" />",
+	"<!-- Benin -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-bj\" />",
+	"<!-- Saint Barthelemy -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-bl\" />",
+	"<!-- Bouvet Island -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"no-bv\" />",
+	"<!-- Botswana -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-bw\" />",
+	"<!-- Belarus -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ru-by\" />",
+	"<!-- Central African Republic -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-cf\" />",
+	"<!-- Switzerland -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"de-ch\" />",
+	"<!-- Cook Islands -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-ck\" />",
+	"<!-- Cameroon -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-cm\" />",
+	"<!-- Serbia -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"sr-cs\" />",
+	"<!-- Curacao -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"nl-cw\" />",
+	"<!-- Cyprus -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"el-cy\" />",
+	"<!-- Czechia -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"cs-cz\" />",
+	"<!-- Germany -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"de-de\" />",
+	"<!-- Djibouti -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-dj\" />",
+	"<!-- Denmark -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"da-dk\" />",
+	"<!-- Algeria -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-dz\" />",
+	"<!-- Estonia -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"et-ee\" />",
+	"<!-- Egypt -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-eg\" />",
+	"<!-- Western Sahara -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-eh\" />",
+	"<!-- Eritrea -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ti-er\" />",
+	"<!-- Spain -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-es\" />",
+	"<!-- Ethiopia -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"am-et\" />",
+	"<!-- Finland -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fi-fi\" />",
+	"<!-- Faroe Islands -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fo-fo\" />",
+	"<!-- France -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-fr\" />",
+	"<!-- Gabon -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-ga\" />",
+	"<!-- Georgia -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ka-ge\" />",
+	"<!-- French Guiana -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-gf\" />",
+	"<!-- Guernsey -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-gg\" />",
+	"<!-- Ghana -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-gh\" />",
+	"<!-- Gibraltar -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-gi\" />",
+	"<!-- Greenland -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"kl-gl\" />",
+	"<!-- Gambia -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-gm\" />",
+	"<!-- Guinea -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-gn\" />",
+	"<!-- Guadeloupe -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-gp\" />",
+	"<!-- Equatorial Guinea -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-gq\" />",
+	"<!-- Greece -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"el-gr\" />",
+	"<!-- Guinea -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"pt-gw\" />",
+	"<!-- Croatia -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"hr-hr\" />",
+	"<!-- Hungary -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"hu-hu\" />",
+	"<!-- Ireland -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-ie\" />",
+	"<!-- Israel -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"he-il\" />",
+	"<!-- Isle of Man -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-im\" />",
+	"<!-- Iraq -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-iq\" />",
+	"<!-- Iran -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fa-ir\" />",
+	"<!-- Iceland -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"is-is\" />",
+	"<!-- Italy -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"it-it\" />",
+	"<!-- Jersey -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-je\" />",
+	"<!-- Jordan -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-jo\" />",
+	"<!-- Kenya -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-ke\" />",
+	"<!-- Kyrgyzstan -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ky-kg\" />",
+	"<!-- Comoros -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-km\" />",
+	"<!-- Kuwait -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-kw\" />",
+	"<!-- Kazakhstan -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"kk-kz\" />",
+	"<!-- Lebanon -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-lb\" />",
+	"<!-- Liechtenstein -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"de-li\" />",
+	"<!-- Liberia -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-lr\" />",
+	"<!-- Lesotho -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"st-ls\" />",
+	"<!-- Lithuania -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"lt-lt\" />",
+	"<!-- Luxembourg -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"lb-lu\" />",
+	"<!-- Latvia -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"lv-lv\" />",
+	"<!-- Libya -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-ly\" />",
+	"<!-- Morocco -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-ma\" />",
+	"<!-- Monaco -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-mc\" />",
+	"<!-- Moldova -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ro-md\" />",
+	"<!-- Saint Martin -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-mf\" />",
+	"<!-- Madagascar -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-mg\" />",
+	"<!-- Macedonia -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"mk-mk\" />",
+	"<!-- Mali -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-ml\" />",
+	"<!-- Martinique -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-mq\" />",
+	"<!-- Mauritania -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-mr\" />",
+	"<!-- Malta -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"mt-mt\" />",
+	"<!-- Mauritius -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-mu\" />",
+	"<!-- Malawi -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-mw\" />",
+	"<!-- Mozambique -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"pt-mz\" />",
+	"<!-- Namibia -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-na\" />",
+	"<!-- New Caledonia -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-nc\" />",
+	"<!-- Niger -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-ne\" />",
+	"<!-- Niger -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-ng\" />",
+	"<!-- Netherlands -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"nl-nl\" />",
+	"<!-- Norway -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"no-no\" />",
+	"<!-- Oman -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-om\" />",
+	"<!-- French Polynesia -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-pf\" />",
+	"<!-- Poland -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"pl-pl\" />",
+	"<!-- Saint Pierre and Miquelon -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-pm\" />",
+	"<!-- Portugal -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"pt-pt\" />",
+	"<!-- Qatar -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-qa\" />",
+	"<!-- Romania -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ro-ro\" />",
+	"<!-- Serbia -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"sr-rs\" />",
+	"<!-- Rwanda -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"rw-rw\" />",
+	"<!-- Saudi Arabia -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-sa\" />",
+	"<!-- Seychelles -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-sc\" />",
+	"<!-- Sudan -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-sd\" />",
+	"<!-- Sweden -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"sv-se\" />",
+	"<!-- Saint Helena -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-sh\" />",
+	"<!-- Slovenia -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"sl-si\" />",
+	"<!-- Svalbard and Jan Mayen -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"no-sj\" />",
+	"<!-- Slovakia -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"sk-sk\" />",
+	"<!-- Sierra Leone -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-sl\" />",
+	"<!-- San Marino -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"it-sm\" />",
+	"<!-- Senegal -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-sn\" />",
+	"<!-- Somalia -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"so-so\" />",
+	"<!-- South Sudan -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-ss\" />",
+	"<!-- Sao Tome and Principe -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"pt-st\" />",
+	"<!-- Sint Maarten -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-sx\" />",
+	"<!-- Swaziland -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-sz\" />",
+	"<!-- Chad -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-td\" />",
+	"<!-- French Southern Territories -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-tf\" />",
+	"<!-- Togo -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-tg\" />",
+	"<!-- Tajikistan -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"tg-tj\" />",
+	"<!-- Turkmenistan -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"tk-tm\" />",
+	"<!-- Tunisia -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-tn\" />",
+	"<!-- Turkey -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"tr-tr\" />",
+	"<!-- Tanzania -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"sw-tz\" />",
+	"<!-- Ukraine -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"uk-ua\" />",
+	"<!-- Uganda -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-ug\" />",
+	"<!-- Uzbekistan -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"uz-uz\" />",
+	"<!-- Wallis and Futuna -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-wf\" />",
+	"<!-- Yemen -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-ye\" />",
+	"<!-- Mayotte -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-yt\" />",
+	"<!-- South Africa -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"af-za\" />",
+	"<!-- Zambia -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-zm\" />",
+	"<!-- Zimbabwe -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"sn-zw\" />",
+],
+"description": "Inserts the hreflang code for all EMEA countries."
+}
+"LATAM Countries": {
+"prefix": "hreflang:LATAM Countries",
+"scope": "html",
+"body": [
+	"<!-- Antigua and Barbuda -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-ag\" />",
+	"<!-- Anguilla -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-ai\" />",
+	"<!-- Argentina -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-ar\" />",
+	"<!-- Aruba -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"nl-aw\" />",
+	"<!-- Barbados -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-bb\" />",
+	"<!-- Bermuda -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-bm\" />",
+	"<!-- Bolivia -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-bo\" />",
+	"<!-- Brazil -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"pt-br\" />",
+	"<!-- Bahamas -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-bs\" />",
+	"<!-- Belize -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-bz\" />",
+	"<!-- Chile -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-cl\" />",
+	"<!-- Colombia -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-co\" />",
+	"<!-- Costa Rica -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-cr\" />",
+	"<!-- Cuba -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-cu\" />",
+	"<!-- Dominica -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-dm\" />",
+	"<!-- Dominican Republic -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-do\" />",
+	"<!-- Ecuador -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-ec\" />",
+	"<!-- Falkland Islands -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-fk\" />",
+	"<!-- Grenada -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-gd\" />",
+	"<!-- South Georgia and the South Sandwich Islands -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-gs\" />",
+	"<!-- Guatemala -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-gt\" />",
+	"<!-- Guyana -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-gy\" />",
+	"<!-- Honduras -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-hn\" />",
+	"<!-- Haiti -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-ht\" />",
+	"<!-- Jamaica -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-jm\" />",
+	"<!-- Saint Kitts and Nevis -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-kn\" />",
+	"<!-- Cayman Islands -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-ky\" />",
+	"<!-- Saint Lucia -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-lc\" />",
+	"<!-- Montserrat -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-ms\" />",
+	"<!-- Mexico -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-mx\" />",
+	"<!-- Nicaragua -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-ni\" />",
+	"<!-- Panama -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-pa\" />",
+	"<!-- Peru -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-pe\" />",
+	"<!-- Puerto Rico -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-pr\" />",
+	"<!-- Paraguay -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-py\" />",
+	"<!-- Suriname -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"nl-sr\" />",
+	"<!-- El Salvador -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-sv\" />",
+	"<!-- Turks and Caicos Islands -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-tc\" />",
+	"<!-- Trinidad and Tobago -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-tt\" />",
+	"<!-- Uruguay -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-uy\" />",
+	"<!-- Saint Vincent and the Grenadines -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-vc\" />",
+	"<!-- Venezuela -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-ve\" />",
+	"<!-- British Virgin Islands -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-vg\" />",
+	"<!-- U.S. Virgin Islands -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-vi\" />",
+],
+"description": "Inserts the hreflang code for all LATAM countries."
+},
+"North American Countries": {
+"prefix": "hreflang:North America",
+"scope": "html",
+"body": [
+	"<!-- United States -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-us\" />",
+	"<!-- Canada -->",
+	"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-ca\" />",
+],
+"description": "Inserts the hreflang code for all North American countries."
+},
+// Individual Countries HREFLANG HTML Snippets
+	"Andorra hreflang": {
+		"prefix": "hreflang:Andorra:Catalan",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ca-ad\" />"
+		],
+		"description": "Country = Andorra. Primary Language = Catalan."
+	},
+	"United Arab Emirates hreflang": {
+		"prefix": "hreflang:United Arab Emirates:Arabic",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-ae\" />"
+		],
+		"description": "Country = United Arab Emirates. Primary Language = Arabic."
+	},
+	"Afghanistan hreflang": {
+		"prefix": "hreflang:Afghanistan:Persian",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fa-af\" />"
+		],
+		"description": "Country = Afghanistan. Primary Language = Persian."
+	},
+	"Antigua and Barbuda hreflang": {
+		"prefix": "hreflang:Antigua and Barbuda:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-ag\" />"
+		],
+		"description": "Country = Antigua and Barbuda. Primary Language = English."
+	},
+	"Anguilla hreflang": {
+		"prefix": "hreflang:Anguilla:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-ai\" />"
+		],
+		"description": "Country = Anguilla. Primary Language = English."
+	},
+	"Albania hreflang": {
+		"prefix": "hreflang:Albania:Albanian",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"sq-al\" />"
+		],
+		"description": "Country = Albania. Primary Language = Albanian."
+	},
+	"Armenia hreflang": {
+		"prefix": "hreflang:Armenia:Armenian",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"hy-am\" />"
+		],
+		"description": "Country = Armenia. Primary Language = Armenian."
+	},
+	"Netherlands Antilles hreflang": {
+		"prefix": "hreflang:Netherlands Antilles:Dutch",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"nl-an\" />"
+		],
+		"description": "Country = Netherlands Antilles. Primary Language = Dutch."
+	},
+	"Angola hreflang": {
+		"prefix": "hreflang:Angola:Portuguese",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"pt-ao\" />"
+		],
+		"description": "Country = Angola. Primary Language = Portuguese."
+	},
+	"Argentina hreflang": {
+		"prefix": "hreflang:Argentina:Spanish",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-ar\" />"
+		],
+		"description": "Country = Argentina. Primary Language = Spanish."
+	},
+	"American Samoa hreflang": {
+		"prefix": "hreflang:American Samoa:Samoan",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"sm-as\" />"
+		],
+		"description": "Country = American Samoa. Primary Language = Samoan."
+	},
+	"Austria hreflang": {
+		"prefix": "hreflang:Austria:German",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"de-at\" />"
+		],
+		"description": "Country = Austria. Primary Language = German."
+	},
+	"Australia hreflang": {
+		"prefix": "hreflang:Australia:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-au\" />"
+		],
+		"description": "Country = Australia. Primary Language = English."
+	},
+	"Aruba hreflang": {
+		"prefix": "hreflang:Aruba:Dutch",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"nl-aw\" />"
+		],
+		"description": "Country = Aruba. Primary Language = Dutch."
+	},
+	"Aland Islands hreflang": {
+		"prefix": "hreflang:Aland Islands:Swedish",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"sv-ax\" />"
+		],
+		"description": "Country = Aland Islands. Primary Language = Swedish."
+	},
+	"Azerbaijan hreflang": {
+		"prefix": "hreflang:Azerbaijan:Azerbaijani",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"az-az\" />"
+		],
+		"description": "Country = Azerbaijan. Primary Language = Azerbaijani."
+	},
+	"Bosnia and Herzegovina hreflang": {
+		"prefix": "hreflang:Bosnia and Herzegovina:Bosnian",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"bs-ba\" />"
+		],
+		"description": "Country = Bosnia and Herzegovina. Primary Language = Bosnian."
+	},
+	"Barbados hreflang": {
+		"prefix": "hreflang:Barbados:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-bb\" />"
+		],
+		"description": "Country = Barbados. Primary Language = English."
+	},
+	"Bangladesh hreflang": {
+		"prefix": "hreflang:Bangladesh:Bengali",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"bn-bd\" />"
+		],
+		"description": "Country = Bangladesh. Primary Language = Bengali."
+	},
+	"Belgium hreflang": {
+		"prefix": "hreflang:Belgium:Dutch",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"nl-be\" />"
+		],
+		"description": "Country = Belgium. Primary Language = Dutch."
+	},
+	"Burkina Faso hreflang": {
+		"prefix": "hreflang:Burkina Faso:French",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-bf\" />"
+		],
+		"description": "Country = Burkina Faso. Primary Language = French."
+	},
+	"Bulgaria hreflang": {
+		"prefix": "hreflang:Bulgaria:Bulgarian",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"bg-bg\" />"
+		],
+		"description": "Country = Bulgaria. Primary Language = Bulgarian."
+	},
+	"Bahrain hreflang": {
+		"prefix": "hreflang:Bahrain:Arabic",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-bh\" />"
+		],
+		"description": "Country = Bahrain. Primary Language = Arabic."
+	},
+	"Burundi hreflang": {
+		"prefix": "hreflang:Burundi:Kirundi",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"rn-bi\" />"
+		],
+		"description": "Country = Burundi. Primary Language = Kirundi."
+	},
+	"Benin hreflang": {
+		"prefix": "hreflang:Benin:French",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-bj\" />"
+		],
+		"description": "Country = Benin. Primary Language = French."
+	},
+	"Saint Barthelemy hreflang": {
+		"prefix": "hreflang:Saint Barthelemy:French",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-bl\" />"
+		],
+		"description": "Country = Saint Barthelemy. Primary Language = French."
+	},
+	"Bermuda hreflang": {
+		"prefix": "hreflang:Bermuda:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-bm\" />"
+		],
+		"description": "Country = Bermuda. Primary Language = English."
+	},
+	"Brunei hreflang": {
+		"prefix": "hreflang:Brunei:Malay",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ms-bn\" />"
+		],
+		"description": "Country = Brunei. Primary Language = Malay."
+	},
+	"Bolivia hreflang": {
+		"prefix": "hreflang:Bolivia:Spanish",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-bo\" />"
+		],
+		"description": "Country = Bolivia. Primary Language = Spanish."
+	},
+	"Sint Eustatius and Saba Bonaire (Caribbean Netherlands) hreflang": {
+		"prefix": "hreflang:Sint Eustatius and Saba Bonaire (Caribbean Netherlands:Dutch",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"nl-bq\" />"
+		],
+		"description": "Country = Bonaire, Saint Eustatius and Saba. Primary Language = Dutch."
+	},
+	"Brazil hreflang": {
+		"prefix": "hreflang:Brazil:Portuguese",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"pt-br\" />"
+		],
+		"description": "Country = Brazil. Primary Language = Portuguese."
+	},
+	"Bahamas hreflang": {
+		"prefix": "hreflang:Bahamas:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-bs\" />"
+		],
+		"description": "Country = Bahamas. Primary Language = English."
+	},
+	"Bhutan hreflang": {
+		"prefix": "hreflang:Bhutan:Dzongkha",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"dz-bt\" />"
+		],
+		"description": "Country = Bhutan. Primary Language = Dzongkha."
+	},
+	"Bouvet Island hreflang": {
+		"prefix": "hreflang:Bouvet Island:Norwegian",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"no-bv\" />"
+		],
+		"description": "Country = Bouvet Island. Primary Language = Norwegian."
+	},
+	"Botswana hreflang": {
+		"prefix": "hreflang:Botswana:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-bw\" />"
+		],
+		"description": "Country = Botswana. Primary Language = English."
+	},
+	"Belarus hreflang": {
+		"prefix": "hreflang:Belarus:Russian",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ru-by\" />"
+		],
+		"description": "Country = Belarus. Primary Language = Russian."
+	},
+	"Belize hreflang": {
+		"prefix": "hreflang:Belize:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-bz\" />"
+		],
+		"description": "Country = Belize. Primary Language = English."
+	},
+	"Canada hreflang": {
+		"prefix": "hreflang:Canada:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-ca\" />"
+		],
+		"description": "Country = Canada. Primary Language = English."
+	},
+	"Democratic Republic of the Congo hreflang": {
+		"prefix": "hreflang:Democratic Republic of the Congo:French",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-cd\" />"
+		],
+		"description": "Country = Democratic Republic of the Congo. Primary Language = French."
+	},
+	"Central African Republic hreflang": {
+		"prefix": "hreflang:Central African Republic:French",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-cf\" />"
+		],
+		"description": "Country = Central African Republic. Primary Language = French."
+	},
+	"Republic of the Congo hreflang": {
+		"prefix": "hreflang:Republic of the Congo:French",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-cg\" />"
+		],
+		"description": "Country = Republic of the Congo. Primary Language = French."
+	},
+	"Switzerland hreflang": {
+		"prefix": "hreflang:Switzerland:German",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"de-ch\" />"
+		],
+		"description": "Country = Switzerland. Primary Language = German."
+	},
+	"Ivory Coast hreflang": {
+		"prefix": "hreflang:Ivory Coast:French",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-ci\" />"
+		],
+		"description": "Country = Ivory Coast. Primary Language = French."
+	},
+	"Cook Islands hreflang": {
+		"prefix": "hreflang:Cook Islands:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-ck\" />"
+		],
+		"description": "Country = Cook Islands. Primary Language = English."
+	},
+	"Chile hreflang": {
+		"prefix": "hreflang:Chile:Spanish",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-cl\" />"
+		],
+		"description": "Country = Chile. Primary Language = Spanish."
+	},
+	"Cameroon hreflang": {
+		"prefix": "hreflang:Cameroon:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-cm\" />"
+		],
+		"description": "Country = Cameroon. Primary Language = English."
+	},
+	"China hreflang": {
+		"prefix": "hreflang:China:Chinese",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"zh-cn\" />"
+		],
+		"description": "Country = China. Primary Language = Chinese."
+	},
+	"Colombia hreflang": {
+		"prefix": "hreflang:Colombia:Spanish",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-co\" />"
+		],
+		"description": "Country = Colombia. Primary Language = Spanish."
+	},
+	"Costa Rica hreflang": {
+		"prefix": "hreflang:Costa Rica:Spanish",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-cr\" />"
+		],
+		"description": "Country = Costa Rica. Primary Language = Spanish."
+	},
+	"Serbia and Montenegro hreflang": {
+		"prefix": "hreflang:Serbia and Montenegro:Serbian",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"sr-cs\" />"
+		],
+		"description": "Country = Serbia and Montenegro. Primary Language = Serbian."
+	},
+	"Cuba hreflang": {
+		"prefix": "hreflang:Cuba:Spanish",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-cu\" />"
+		],
+		"description": "Country = Cuba. Primary Language = Spanish."
+	},
+	"Cape Verde hreflang": {
+		"prefix": "hreflang:Cape Verde:Portuguese",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"pt-cv\" />"
+		],
+		"description": "Country = Cape Verde. Primary Language = Portuguese."
+	},
+	"Curacao hreflang": {
+		"prefix": "hreflang:Curacao:Dutch",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"nl-cw\" />"
+		],
+		"description": "Country = Curacao. Primary Language = Dutch."
+	},
+	"Cyprus hreflang": {
+		"prefix": "hreflang:Cyprus:Greek",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"el-cy\" />"
+		],
+		"description": "Country = Cyprus. Primary Language = Greek."
+	},
+	"Czechia hreflang": {
+		"prefix": "hreflang:Czechia:Czech",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"cs-cz\" />"
+		],
+		"description": "Country = Czechia. Primary Language = Czech."
+	},
+	"Germany hreflang": {
+		"prefix": "hreflang:Germany:German",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"de-de\" />"
+		],
+		"description": "Country = Germany. Primary Language = German."
+	},
+	"Djibouti hreflang": {
+		"prefix": "hreflang:Djibouti:French",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-dj\" />"
+		],
+		"description": "Country = Djibouti. Primary Language = French."
+	},
+	"Denmark hreflang": {
+		"prefix": "hreflang:Denmark:Danish",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"da-dk\" />"
+		],
+		"description": "Country = Denmark. Primary Language = Danish."
+	},
+	"Dominica hreflang": {
+		"prefix": "hreflang:Dominica:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-dm\" />"
+		],
+		"description": "Country = Dominica. Primary Language = English."
+	},
+	"Dominican Republic hreflang": {
+		"prefix": "hreflang:Dominican Republic:Spanish",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-do\" />"
+		],
+		"description": "Country = Dominican Republic. Primary Language = Spanish."
+	},
+	"Algeria hreflang": {
+		"prefix": "hreflang:Algeria:Arabic",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-dz\" />"
+		],
+		"description": "Country = Algeria. Primary Language = Arabic."
+	},
+	"Ecuador hreflang": {
+		"prefix": "hreflang:Ecuador:Spanish",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-ec\" />"
+		],
+		"description": "Country = Ecuador. Primary Language = Spanish."
+	},
+	"Estonia hreflang": {
+		"prefix": "hreflang:Estonia:Estonian",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"et-ee\" />"
+		],
+		"description": "Country = Estonia. Primary Language = Estonian."
+	},
+	"Egypt hreflang": {
+		"prefix": "hreflang:Egypt:Arabic",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-eg\" />"
+		],
+		"description": "Country = Egypt. Primary Language = Arabic."
+	},
+	"Western Sahara hreflang": {
+		"prefix": "hreflang:Western Sahara:Arabic",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-eh\" />"
+		],
+		"description": "Country = Western Sahara. Primary Language = Arabic."
+	},
+	"Eritrea hreflang": {
+		"prefix": "hreflang:Eritrea:Tigrinya",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ti-er\" />"
+		],
+		"description": "Country = Eritrea. Primary Language = Tigrinya."
+	},
+	"Spain hreflang": {
+		"prefix": "hreflang:Spain:Spanish",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-es\" />"
+		],
+		"description": "Country = Spain. Primary Language = Spanish."
+	},
+	"Ethiopia hreflang": {
+		"prefix": "hreflang:Ethiopia:Amharic",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"am-et\" />"
+		],
+		"description": "Country = Ethiopia. Primary Language = Amharic."
+	},
+	"Finland hreflang": {
+		"prefix": "hreflang:Finland:Finnish",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fi-fi\" />"
+		],
+		"description": "Country = Finland. Primary Language = Finnish."
+	},
+	"Fiji hreflang": {
+		"prefix": "hreflang:Fiji:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-fj\" />"
+		],
+		"description": "Country = Fiji. Primary Language = English."
+	},
+	"Falkland Islands hreflang": {
+		"prefix": "hreflang:Falkland Islands:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-fk\" />"
+		],
+		"description": "Country = Falkland Islands. Primary Language = English."
+	},
+	"Micronesia hreflang": {
+		"prefix": "hreflang:Micronesia:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-fm\" />"
+		],
+		"description": "Country = Micronesia. Primary Language = English."
+	},
+	"Faroe Islands hreflang": {
+		"prefix": "hreflang:Faroe Islands:Faroese",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fo-fo\" />"
+		],
+		"description": "Country = Faroe Islands. Primary Language = Faroese."
+	},
+	"France hreflang": {
+		"prefix": "hreflang:France:French",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-fr\" />"
+		],
+		"description": "Country = France. Primary Language = French."
+	},
+	"Gabon hreflang": {
+		"prefix": "hreflang:Gabon:French",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-ga\" />"
+		],
+		"description": "Country = Gabon. Primary Language = French."
+	},
+	"United Kingdom hreflang": {
+		"prefix": "hreflang:United Kingdom:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-gb\" />"
+		],
+		"description": "Country = United Kingdom. Primary Language = English."
+	},
+	"Grenada hreflang": {
+		"prefix": "hreflang:Grenada:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-gd\" />"
+		],
+		"description": "Country = Grenada. Primary Language = English."
+	},
+	"Georgia hreflang": {
+		"prefix": "hreflang:Georgia:Georgian",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ka-ge\" />"
+		],
+		"description": "Country = Georgia. Primary Language = Georgian."
+	},
+	"French Guiana hreflang": {
+		"prefix": "hreflang:French Guiana:French",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-gf\" />"
+		],
+		"description": "Country = French Guiana. Primary Language = French."
+	},
+	"Guernsey hreflang": {
+		"prefix": "hreflang:Guernsey:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-gg\" />"
+		],
+		"description": "Country = Guernsey. Primary Language = English."
+	},
+	"Ghana hreflang": {
+		"prefix": "hreflang:Ghana:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-gh\" />"
+		],
+		"description": "Country = Ghana. Primary Language = English."
+	},
+	"Gibraltar hreflang": {
+		"prefix": "hreflang:Gibraltar:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-gi\" />"
+		],
+		"description": "Country = Gibraltar. Primary Language = English."
+	},
+	"Greenland hreflang": {
+		"prefix": "hreflang:Greenland:Greenlandic",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"kl-gl\" />"
+		],
+		"description": "Country = Greenland. Primary Language = Greenlandic."
+	},
+	"Gambia hreflang": {
+		"prefix": "hreflang:Gambia:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-gm\" />"
+		],
+		"description": "Country = Gambia. Primary Language = English."
+	},
+	"Guinea hreflang": {
+		"prefix": "hreflang:Guinea:French",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-gn\" />"
+		],
+		"description": "Country = Guinea. Primary Language = French."
+	},
+	"Guadeloupe hreflang": {
+		"prefix": "hreflang:Guadeloupe:French",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-gp\" />"
+		],
+		"description": "Country = Guadeloupe. Primary Language = French."
+	},
+	"Equatorial Guinea hreflang": {
+		"prefix": "hreflang:Equatorial Guinea:Spanish",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-gq\" />"
+		],
+		"description": "Country = Equatorial Guinea. Primary Language = Spanish."
+	},
+	"Greece hreflang": {
+		"prefix": "hreflang:Greece:Greek",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"el-gr\" />"
+		],
+		"description": "Country = Greece. Primary Language = Greek."
+	},
+	"South Georgia and the South Sandwich Islands hreflang": {
+		"prefix": "hreflang:South Georgia and the South Sandwich Islands:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-gs\" />"
+		],
+		"description": "Country = South Georgia and the South Sandwich Islands. Primary Language = English."
+	},
+	"Guatemala hreflang": {
+		"prefix": "hreflang:Guatemala:Spanish",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-gt\" />"
+		],
+		"description": "Country = Guatemala. Primary Language = Spanish."
+	},
+	"Guam hreflang": {
+		"prefix": "hreflang:Guam:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-gu\" />"
+		],
+		"description": "Country = Guam. Primary Language = English."
+	},
+	"Guinea-Bissau hreflang": {
+		"prefix": "hreflang:Guinea-Bissau:Portuguese",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"pt-gw\" />"
+		],
+		"description": "Country = Guinea-Bissau. Primary Language = Portuguese."
+	},
+	"Guyana hreflang": {
+		"prefix": "hreflang:Guyana:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-gy\" />"
+		],
+		"description": "Country = Guyana. Primary Language = English."
+	},
+	"Hong Kong hreflang": {
+		"prefix": "hreflang:Hong Kong:Chinese",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"zh-hk\" />"
+		],
+		"description": "Country = Hong Kong. Primary Language = Chinese."
+	},
+	"Honduras hreflang": {
+		"prefix": "hreflang:Honduras:Spanish",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-hn\" />"
+		],
+		"description": "Country = Honduras. Primary Language = Spanish."
+	},
+	"Croatia hreflang": {
+		"prefix": "hreflang:Croatia:Croatian",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"hr-hr\" />"
+		],
+		"description": "Country = Croatia. Primary Language = Croatian."
+	},
+	"Haiti hreflang": {
+		"prefix": "hreflang:Haiti:French",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-ht\" />"
+		],
+		"description": "Country = Haiti. Primary Language = French."
+	},
+	"Hungary hreflang": {
+		"prefix": "hreflang:Hungary:Hungarian",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"hu-hu\" />"
+		],
+		"description": "Country = Hungary. Primary Language = Hungarian."
+	},
+	"Indonesia hreflang": {
+		"prefix": "hreflang:Indonesia:Indonesian",
+		"scope": "html",
+		"body": [
+			"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"id-id\" />"
+		],
+		"description": "Country = Indonesia. Primary Language = Bahasa Indonesian."
+	},
+	"Ireland hreflang": {
+		"prefix": "hreflang:Ireland:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-ie\" />"
+		],
+		"description": "Country = Ireland. Primary Language = English."
+	},
+	"Israel hreflang": {
+		"prefix": "hreflang:Israel:Hebrew",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"he-il\" />"
+		],
+		"description": "Country = Israel. Primary Language = Hebrew."
+	},
+	"Isle of Man hreflang": {
+		"prefix": "hreflang:Isle of Man:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-im\" />"
+		],
+		"description": "Country = Isle of Man. Primary Language = English."
+	},
+	"India hreflang": {
+		"prefix": "hreflang:India:Hindi",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"hi-in\" />"
+		],
+		"description": "Country = India. Primary Language = Hindi."
+	},
+	"British Indian Ocean Territory hreflang": {
+		"prefix": "hreflang:British Indian Ocean Territory:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-io\" />"
+		],
+		"description": "Country = British Indian Ocean Territory. Primary Language = English."
+	},
+	"Iraq hreflang": {
+		"prefix": "hreflang:Iraq:Arabic",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-iq\" />"
+		],
+		"description": "Country = Iraq. Primary Language = Arabic."
+	},
+	"Iran hreflang": {
+		"prefix": "hreflang:Iran:Persian",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fa-ir\" />"
+		],
+		"description": "Country = Iran. Primary Language = Persian."
+	},
+	"Iceland hreflang": {
+		"prefix": "hreflang:Iceland:Icelandic",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"is-is\" />"
+		],
+		"description": "Country = Iceland. Primary Language = Icelandic."
+	},
+	"Italy hreflang": {
+		"prefix": "hreflang:Italy:Italian",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"it-it\" />"
+		],
+		"description": "Country = Italy. Primary Language = Italian."
+	},
+	"Jersey hreflang": {
+		"prefix": "hreflang:Jersey:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-je\" />"
+		],
+		"description": "Country = Jersey. Primary Language = English."
+	},
+	"Jamaica hreflang": {
+		"prefix": "hreflang:Jamaica:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-jm\" />"
+		],
+		"description": "Country = Jamaica. Primary Language = English."
+	},
+	"Jordan hreflang": {
+		"prefix": "hreflang:Jordan:Arabic",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-jo\" />"
+		],
+		"description": "Country = Jordan. Primary Language = Arabic."
+	},
+	"Japan hreflang": {
+		"prefix": "hreflang:Japan:Japanese",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ja-jp\" />"
+		],
+		"description": "Country = Japan. Primary Language = Japanese."
+	},
+	"Kenya hreflang": {
+		"prefix": "hreflang:Kenya:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-ke\" />"
+		],
+		"description": "Country = Kenya. Primary Language = English."
+	},
+	"Kyrgyzstan hreflang": {
+		"prefix": "hreflang:Kyrgyzstan:Kyrgyz",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ky-kg\" />"
+		],
+		"description": "Country = Kyrgyzstan. Primary Language = Kyrgyz."
+	},
+	"Cambodia hreflang": {
+		"prefix": "hreflang:Cambodia:Khmer",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"km-kh\" />"
+		],
+		"description": "Country = Cambodia. Primary Language = Khmer."
+	},
+	"Kiribati hreflang": {
+		"prefix": "hreflang:Kiribati:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-ki\" />"
+		],
+		"description": "Country = Kiribati. Primary Language = English."
+	},
+	"Comoros hreflang": {
+		"prefix": "hreflang:Comoros:Arabic",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-km\" />"
+		],
+		"description": "Country = Comoros. Primary Language = Arabic."
+	},
+	"Saint Kitts and Nevis hreflang": {
+		"prefix": "hreflang:Saint Kitts and Nevis:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-kn\" />"
+		],
+		"description": "Country = Saint Kitts and Nevis. Primary Language = English."
+	},
+	"North Korea hreflang": {
+		"prefix": "hreflang:North Korea:Korean",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ko-kp\" />"
+		],
+		"description": "Country = North Korea. Primary Language = Korean."
+	},
+	"South Korea hreflang": {
+		"prefix": "hreflang:South Korea:Korean",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ko-kr\" />"
+		],
+		"description": "Country = South Korea. Primary Language = Korean."
+	},
+	"Kuwait hreflang": {
+		"prefix": "hreflang:Kuwait:Arabic",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-kw\" />"
+		],
+		"description": "Country = Kuwait. Primary Language = Arabic."
+	},
+	"Cayman Islands hreflang": {
+		"prefix": "hreflang:Cayman Islands:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-ky\" />"
+		],
+		"description": "Country = Cayman Islands. Primary Language = English."
+	},
+	"Kazakhstan hreflang": {
+		"prefix": "hreflang:Kazakhstan:Kazakh",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"kk-kz\" />"
+		],
+		"description": "Country = Kazakhstan. Primary Language = Kazakh."
+	},
+	"Laos hreflang": {
+		"prefix": "hreflang:Laos:Lao",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"lo-la\" />"
+		],
+		"description": "Country = Laos. Primary Language = Lao."
+	},
+	"Lebanon hreflang": {
+		"prefix": "hreflang:Lebanon:Arabic",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-lb\" />"
+		],
+		"description": "Country = Lebanon. Primary Language = Arabic."
+	},
+	"Saint Lucia hreflang": {
+		"prefix": "hreflang:Saint Lucia:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-lc\" />"
+		],
+		"description": "Country = Saint Lucia. Primary Language = English."
+	},
+	"Liechtenstein hreflang": {
+		"prefix": "hreflang:Liechtenstein:German",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"de-li\" />"
+		],
+		"description": "Country = Liechtenstein. Primary Language = German."
+	},
+	"Sri Lanka hreflang": {
+		"prefix": "hreflang:Sri Lanka:Sinhala",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"si-lk\" />"
+		],
+		"description": "Country = Sri Lanka. Primary Language = Sinhala."
+	},
+	"Liberia hreflang": {
+		"prefix": "hreflang:Liberia:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-lr\" />"
+		],
+		"description": "Country = Liberia. Primary Language = English."
+	},
+	"Lesotho hreflang": {
+		"prefix": "hreflang:Lesotho:Sotho",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"st-ls\" />"
+		],
+		"description": "Country = Lesotho. Primary Language = Sotho."
+	},
+	"Lithuania hreflang": {
+		"prefix": "hreflang:Lithuania:Lithuanian",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"lt-lt\" />"
+		],
+		"description": "Country = Lithuania. Primary Language = Lithuanian."
+	},
+	"Luxembourg hreflang": {
+		"prefix": "hreflang:Luxembourg:Luxembourgish",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"lb-lu\" />"
+		],
+		"description": "Country = Luxembourg. Primary Language = Luxembourgish."
+	},
+	"Latvia hreflang": {
+		"prefix": "hreflang:Latvia:Latvian",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"lv-lv\" />"
+		],
+		"description": "Country = Latvia. Primary Language = Latvian."
+	},
+	"Libya hreflang": {
+		"prefix": "hreflang:Libya:Arabic",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-ly\" />"
+		],
+		"description": "Country = Libya. Primary Language = Arabic."
+	},
+	"Morocco hreflang": {
+		"prefix": "hreflang:Morocco:Arabic",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-ma\" />"
+		],
+		"description": "Country = Morocco. Primary Language = Arabic."
+	},
+	"Monaco hreflang": {
+		"prefix": "hreflang:Monaco:French",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-mc\" />"
+		],
+		"description": "Country = Monaco. Primary Language = French."
+	},
+	"Moldova hreflang": {
+		"prefix": "hreflang:Moldova:Romanian",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ro-md\" />"
+		],
+		"description": "Country = Moldova. Primary Language = Romanian."
+	},
+	"Saint Martin hreflang": {
+		"prefix": "hreflang:Saint Martin:French",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-mf\" />"
+		],
+		"description": "Country = Saint Martin. Primary Language = French."
+	},
+	"Madagascar hreflang": {
+		"prefix": "hreflang:Madagascar:French",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-mg\" />"
+		],
+		"description": "Country = Madagascar. Primary Language = French."
+	},
+	"Marshall Islands hreflang": {
+		"prefix": "hreflang:Marshall Islands:Marshallese",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"mh-mh\" />"
+		],
+		"description": "Country = Marshall Islands. Primary Language = Marshallese."
+	},
+	"Macedonia hreflang": {
+		"prefix": "hreflang:Macedonia:Macedonian",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"mk-mk\" />"
+		],
+		"description": "Country = Macedonia. Primary Language = Macedonian."
+	},
+	"Mali hreflang": {
+		"prefix": "hreflang:Mali:French",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-ml\" />"
+		],
+		"description": "Country = Mali. Primary Language = French."
+	},
+	"Myanmar hreflang": {
+		"prefix": "hreflang:Myanmar:Burmanese",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"my-mm\" />"
+		],
+		"description": "Country = Myanmar. Primary Language = Burmanese."
+	},
+	"Mongolia hreflang": {
+		"prefix": "hreflang:Mongolia:Mongolian",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"mn-mn\" />"
+		],
+		"description": "Country = Mongolia. Primary Language = Mongolian."
+	},
+	"Macao hreflang": {
+		"prefix": "hreflang:Macao:Chinese",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"zh-mo\" />"
+		],
+		"description": "Country = Macao. Primary Language = Chinese."
+	},
+	"Northern Mariana Islands hreflang": {
+		"prefix": "hreflang:Northern Mariana Islands:Chamorro",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ch-mp\" />"
+		],
+		"description": "Country = Northern Mariana Islands. Primary Language = Chamorro."
+	},
+	"Martinique hreflang": {
+		"prefix": "hreflang:Martinique:French",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-mq\" />"
+		],
+		"description": "Country = Martinique. Primary Language = French."
+	},
+	"Mauritania hreflang": {
+		"prefix": "hreflang:Mauritania:Arabic",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-mr\" />"
+		],
+		"description": "Country = Mauritania. Primary Language = Arabic."
+	},
+	"Montserrat hreflang": {
+		"prefix": "hreflang:Montserrat:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-ms\" />"
+		],
+		"description": "Country = Montserrat. Primary Language = English."
+	},
+	"Malta hreflang": {
+		"prefix": "hreflang:Malta:Maltese",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"mt-mt\" />"
+		],
+		"description": "Country = Malta. Primary Language = Maltese."
+	},
+	"Mauritius hreflang": {
+		"prefix": "hreflang:Mauritius:French",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-mu\" />"
+		],
+		"description": "Country = Mauritius. Primary Language = French."
+	},
+	"Maldives hreflang": {
+		"prefix": "hreflang:Maldives:Divehi",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"dv-mv\" />"
+		],
+		"description": "Country = Maldives. Primary Language = Divehi."
+	},
+	"Malawi hreflang": {
+		"prefix": "hreflang:Malawi:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-mw\" />"
+		],
+		"description": "Country = Malawi. Primary Language = English."
+	},
+	"Mexico hreflang": {
+		"prefix": "hreflang:Mexico:Spanish",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-mx\" />"
+		],
+		"description": "Country = Mexico. Primary Language = Spanish."
+	},
+
+	"Malaysia hreflang": {
+		"prefix": "hreflang:Malaysia:Malaysian",
+		"scope": "html",
+		"body": [
+			"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ms-my\" />"
+		],
+		"description": "Country = Malaysia. Primary Language = Bahasa Malaysian."
+	},
+	"Mozambique hreflang": {
+		"prefix": "hreflang:Mozambique:Portuguese",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"pt-mz\" />"
+		],
+		"description": "Country = Mozambique. Primary Language = Portuguese."
+	},
+	"Namibia hreflang": {
+		"prefix": "hreflang:Namibia:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-na\" />"
+		],
+		"description": "Country = Namibia. Primary Language = English."
+	},
+	"New Caledonia hreflang": {
+		"prefix": "hreflang:New Caledonia:French",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-nc\" />"
+		],
+		"description": "Country = New Caledonia. Primary Language = French."
+	},
+	"Niger hreflang": {
+		"prefix": "hreflang:Niger:French",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-ne\" />"
+		],
+		"description": "Country = Niger. Primary Language = French."
+	},
+	"Norfolk Island hreflang": {
+		"prefix": "hreflang:Norfolk Island:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-nf\" />"
+		],
+		"description": "Country = Norfolk Island. Primary Language = English."
+	},
+	"Nigeria hreflang": {
+		"prefix": "hreflang:Nigeria:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-ng\" />"
+		],
+		"description": "Country = Nigeria. Primary Language = English."
+	},
+	"Nicaragua hreflang": {
+		"prefix": "hreflang:Nicaragua:Spanish",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-ni\" />"
+		],
+		"description": "Country = Nicaragua. Primary Language = Spanish."
+	},
+	"Netherlands hreflang": {
+		"prefix": "hreflang:Netherlands:Dutch",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"nl-nl\" />"
+		],
+		"description": "Country = Netherlands. Primary Language = Dutch."
+	},
+	"Norway hreflang": {
+		"prefix": "hreflang:Norway:Norwegian",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"no-no\" />"
+		],
+		"description": "Country = Norway. Primary Language = Norwegian."
+	},
+	"Nepal hreflang": {
+		"prefix": "hreflang:Nepal:Nepali",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ne-np\" />"
+		],
+		"description": "Country = Nepal. Primary Language = Nepali."
+	},
+	"Nauru hreflang": {
+		"prefix": "hreflang:Nauru:Nauruan",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"na-nr\" />"
+		],
+		"description": "Country = Nauru. Primary Language = Nauruan."
+	},
+	"New Zealand hreflang": {
+		"prefix": "hreflang:New Zealand:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-nz\" />"
+		],
+		"description": "Country = New Zealand. Primary Language = English."
+	},
+	"Oman hreflang": {
+		"prefix": "hreflang:Oman:Arabic",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-om\" />"
+		],
+		"description": "Country = Oman. Primary Language = Arabic."
+	},
+	"Panama hreflang": {
+		"prefix": "hreflang:Panama:Spanish",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-pa\" />"
+		],
+		"description": "Country = Panama. Primary Language = Spanish."
+	},
+	"Peru hreflang": {
+		"prefix": "hreflang:Peru:Spanish",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-pe\" />"
+		],
+		"description": "Country = Peru. Primary Language = Spanish."
+	},
+	"French Polynesia hreflang": {
+		"prefix": "hreflang:French Polynesia:French",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-pf\" />"
+		],
+		"description": "Country = French Polynesia. Primary Language = French."
+	},
+	"Pakistan hreflang": {
+		"prefix": "hreflang:Pakistan:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-pk\" />"
+		],
+		"description": "Country = Pakistan. Primary Language = English."
+	},
+	"Poland hreflang": {
+		"prefix": "hreflang:Poland:Polish",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"pl-pl\" />"
+		],
+		"description": "Country = Poland. Primary Language = Polish."
+	},
+	"Saint Pierre and Miquelon hreflang": {
+		"prefix": "hreflang:Saint Pierre and Miquelon:French",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-pm\" />"
+		],
+		"description": "Country = Saint Pierre and Miquelon. Primary Language = French."
+	},
+	"Pitcairn hreflang": {
+		"prefix": "hreflang:Pitcairn:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-pn\" />"
+		],
+		"description": "Country = Pitcairn. Primary Language = English."
+	},
+	"Puerto Rico hreflang": {
+		"prefix": "hreflang:Puerto Rico:Spanish",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-pr\" />"
+		],
+		"description": "Country = Puerto Rico. Primary Language = Spanish."
+	},
+	"Palestinian Territory hreflang": {
+		"prefix": "hreflang:Palestinian Territory:Arabic",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-ps\" />"
+		],
+		"description": "Country = Palestinian Territory. Primary Language = Arabic."
+	},
+	"Portugal hreflang": {
+		"prefix": "hreflang:Portugal:Portuguese",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"pt-pt\" />"
+		],
+		"description": "Country = Portugal. Primary Language = Portuguese."
+	},
+	"Palau hreflang": {
+		"prefix": "hreflang:Palau:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-pw\" />"
+		],
+		"description": "Country = Palau. Primary Language = English."
+	},
+	"Paraguay hreflang": {
+		"prefix": "hreflang:Paraguay:Spanish",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-py\" />"
+		],
+		"description": "Country = Paraguay. Primary Language = Spanish."
+	},
+	"Qatar hreflang": {
+		"prefix": "hreflang:Qatar:Arabic",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-qa\" />"
+		],
+		"description": "Country = Qatar. Primary Language = Arabic."
+	},
+	"Reunion hreflang": {
+		"prefix": "hreflang:Reunion:French",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-re\" />"
+		],
+		"description": "Country = Reunion. Primary Language = French."
+	},
+	"Romania hreflang": {
+		"prefix": "hreflang:Romania:Romanian",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ro-ro\" />"
+		],
+		"description": "Country = Romania. Primary Language = Romanian."
+	},
+	"Serbia hreflang": {
+		"prefix": "hreflang:Serbia:Serbian",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"sr-rs\" />"
+		],
+		"description": "Country = Serbia. Primary Language = Serbian."
+	},
+	"Russia hreflang": {
+		"prefix": "hreflang:Russia:Russian",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ru-ru\" />"
+		],
+		"description": "Country = Russia. Primary Language = Russian."
+	},
+	"Rwanda hreflang": {
+		"prefix": "hreflang:Rwanda:Kinyarwanda",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"rw-rw\" />"
+		],
+		"description": "Country = Rwanda. Primary Language = Kinyarwanda."
+	},
+	"Saudi Arabia hreflang": {
+		"prefix": "hreflang:Saudi Arabia:Arabic",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-sa\" />"
+		],
+		"description": "Country = Saudi Arabia. Primary Language = Arabic."
+	},
+	"Seychelles hreflang": {
+		"prefix": "hreflang:Seychelles:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-sc\" />"
+		],
+		"description": "Country = Seychelles. Primary Language = English."
+	},
+	"Sudan hreflang": {
+		"prefix": "hreflang:Sudan:Arabic",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-sd\" />"
+		],
+		"description": "Country = Sudan. Primary Language = Arabic."
+	},
+	"Sweden hreflang": {
+		"prefix": "hreflang:Sweden:Swedish",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"sv-se\" />"
+		],
+		"description": "Country = Sweden. Primary Language = Swedish."
+	},
+	"Singapore hreflang": {
+		"prefix": "hreflang:Singapore:Chinese",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"zh-sg\" />"
+		],
+		"description": "Country = Singapore. Primary Language = Chinese."
+	},
+	"Saint Helena hreflang": {
+		"prefix": "hreflang:Saint Helena:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-sh\" />"
+		],
+		"description": "Country = Saint Helena. Primary Language = English."
+	},
+	"Slovenia hreflang": {
+		"prefix": "hreflang:Slovenia:Slovenian",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"sl-si\" />"
+		],
+		"description": "Country = Slovenia. Primary Language = Slovenian."
+	},
+	"Svalbard and Jan Mayen hreflang": {
+		"prefix": "hreflang:Svalbard and Jan Mayen:Norwegian",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"no-sj\" />"
+		],
+		"description": "Country = Svalbard and Jan Mayen. Primary Language = Norwegian."
+	},
+	"Slovakia hreflang": {
+		"prefix": "hreflang:Slovakia:Slovak",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"sk-sk\" />"
+		],
+		"description": "Country = Slovakia. Primary Language = Slovak."
+	},
+	"Sierra Leone hreflang": {
+		"prefix": "hreflang:Sierra Leone:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-sl\" />"
+		],
+		"description": "Country = Sierra Leone. Primary Language = English."
+	},
+	"San Marino hreflang": {
+		"prefix": "hreflang:San Marino:Italian",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"it-sm\" />"
+		],
+		"description": "Country = San Marino. Primary Language = Italian."
+	},
+	"Senegal hreflang": {
+		"prefix": "hreflang:Senegal:French",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-sn\" />"
+		],
+		"description": "Country = Senegal. Primary Language = French."
+	},
+	"Somalia hreflang": {
+		"prefix": "hreflang:Somalia:Somali",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"so-so\" />"
+		],
+		"description": "Country = Somalia. Primary Language = Somali."
+	},
+	"Suriname hreflang": {
+		"prefix": "hreflang:Suriname:Dutch",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"nl-sr\" />"
+		],
+		"description": "Country = Suriname. Primary Language = Dutch."
+	},
+	"South Sudan hreflang": {
+		"prefix": "hreflang:South Sudan:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-ss\" />"
+		],
+		"description": "Country = South Sudan. Primary Language = English."
+	},
+	"Sao Tome and Principe hreflang": {
+		"prefix": "hreflang:Sao Tome and Principe:Portuguese",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"pt-st\" />"
+		],
+		"description": "Country = Sao Tome and Principe. Primary Language = Portuguese."
+	},
+	
+	"El Salvador hreflang": {
+		"prefix": "hreflang:El Salvador:Spanish",
+		"scope": "html",
+		"body": [
+			"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-sv\" />"
+		],
+		"description": "Country = El Salvador. Primary Language = Spanish."
+	},
+	"Sint Maarten hreflang": {
+		"prefix": "hreflang:Sint Maarten:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-sx\" />"
+		],
+		"description": "Country = Sint Maarten. Primary Language = English."
+	},
+	"Syria hreflang": {
+		"prefix": "hreflang:Syria:Arabic",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-sy\" />"
+		],
+		"description": "Country = Syria. Primary Language = Arabic."
+	},
+	"Swaziland hreflang": {
+		"prefix": "hreflang:Swaziland:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-sz\" />"
+		],
+		"description": "Country = Swaziland. Primary Language = English."
+	},
+	"Turks and Caicos Islands hreflang": {
+		"prefix": "hreflang:Turks and Caicos Islands:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-tc\" />"
+		],
+		"description": "Country = Turks and Caicos Islands. Primary Language = English."
+	},
+	"Chad hreflang": {
+		"prefix": "hreflang:Chad:French",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-td\" />"
+		],
+		"description": "Country = Chad. Primary Language = French."
+	},
+	"French Southern Territories hreflang": {
+		"prefix": "hreflang:French Southern Territories:French",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-tf\" />"
+		],
+		"description": "Country = French Southern Territories. Primary Language = French."
+	},
+	"Togo hreflang": {
+		"prefix": "hreflang:Togo:French",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-tg\" />"
+		],
+		"description": "Country = Togo. Primary Language = French."
+	},
+	"Thailand hreflang": {
+		"prefix": "hreflang:Thailand:Thai",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"th-th\" />"
+		],
+		"description": "Country = Thailand. Primary Language = Thai."
+	},
+	"Tajikistan hreflang": {
+		"prefix": "hreflang:Tajikistan:Tajik",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"tg-tj\" />"
+		],
+		"description": "Country = Tajikistan. Primary Language = Tajik."
+	},
+	"Turkmenistan hreflang": {
+		"prefix": "hreflang:Turkmenistan:Turkmen",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"tk-tm\" />"
+		],
+		"description": "Country = Turkmenistan. Primary Language = Turkmen."
+	},
+	"Tunisia hreflang": {
+		"prefix": "hreflang:Tunisia:Arabic",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-tn\" />"
+		],
+		"description": "Country = Tunisia. Primary Language = Arabic."
+	},
+	"Tonga hreflang": {
+		"prefix": "hreflang:Tonga:Tongan",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"to-to\" />"
+		],
+		"description": "Country = Tonga. Primary Language = Tongan."
+	},
+	"Turkey hreflang": {
+		"prefix": "hreflang:Turkey:Turkish",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"tr-tr\" />"
+		],
+		"description": "Country = Turkey. Primary Language = Turkish."
+	},
+	"Trinidad and Tobago hreflang": {
+		"prefix": "hreflang:Trinidad and Tobago:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-tt\" />"
+		],
+		"description": "Country = Trinidad and Tobago. Primary Language = English."
+	},
+	"Taiwan hreflang": {
+		"prefix": "hreflang:Taiwan:Chinese",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"zh-tw\" />"
+		],
+		"description": "Country = Taiwan. Primary Language = Chinese."
+	},
+	"Tanzania hreflang": {
+		"prefix": "hreflang:Tanzania:Swahili",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"sw-tz\" />"
+		],
+		"description": "Country = Tanzania. Primary Language = Swahili."
+	},
+	"Ukraine hreflang": {
+		"prefix": "hreflang:Ukraine:Ukrainian",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"uk-ua\" />"
+		],
+		"description": "Country = Ukraine. Primary Language = Ukrainian."
+	},
+	"Uganda hreflang": {
+		"prefix": "hreflang:Uganda:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-ug\" />"
+		],
+		"description": "Country = Uganda. Primary Language = English."
+	},
+	"United States Minor Outlying Islands hreflang": {
+		"prefix": "hreflang:United States Minor Outlying Islands:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-um\" />"
+		],
+		"description": "Country = United States Minor Outlying Islands. Primary Language = English."
+	},
+	"United States hreflang": {
+		"prefix": "hreflang:United States:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-us\" />"
+		],
+		"description": "Country = United States. Primary Language = English."
+	},
+	"Uruguay hreflang": {
+		"prefix": "hreflang:Uruguay:Spanish",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-uy\" />"
+		],
+		"description": "Country = Uruguay. Primary Language = Spanish."
+	},
+	"Uzbekistan hreflang": {
+		"prefix": "hreflang:Uzbekistan:Uzbek",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"uz-uz\" />"
+		],
+		"description": "Country = Uzbekistan. Primary Language = Uzbek."
+	},
+	"Vatican hreflang": {
+		"prefix": "hreflang:Vatican:Italian",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"it-va\" />"
+		],
+		"description": "Country = Vatican. Primary Language = Italian."
+	},
+	"Saint Vincent and the Grenadines hreflang": {
+		"prefix": "hreflang:Saint Vincent and the Grenadines:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-vc\" />"
+		],
+		"description": "Country = Saint Vincent and the Grenadines. Primary Language = English."
+	},
+	"Venezuela hreflang": {
+		"prefix": "hreflang:Venezuela:Spanish",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"es-ve\" />"
+		],
+		"description": "Country = Venezuela. Primary Language = Spanish."
+	},
+	"British Virgin Islands hreflang": {
+		"prefix": "hreflang:British Virgin Islands:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-vg\" />"
+		],
+		"description": "Country = British Virgin Islands. Primary Language = English."
+	},
+	
+	"U.S. Virgin Islands hreflang": {
+		"prefix": "hreflang:U.S. Virgin Islands:English",
+		"scope": "html",
+		"body": [
+			"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-vi\" />"
+		],
+		"description": "Country = U.S. Virgin Islands. Primary Language = English."
+	},
+	"Vietnam hreflang": {
+		"prefix": "hreflang:Vietnam:Vietnamese",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"vi-vn\" />"
+		],
+		"description": "Country = Vietnam. Primary Language = Vietnamese."
+	},
+	"Vanuatu hreflang": {
+		"prefix": "hreflang:Vanuatu:Bislama",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"bi-vu\" />"
+		],
+		"description": "Country = Vanuatu. Primary Language = Bislama."
+	},
+	"Wallis and Futuna hreflang": {
+		"prefix": "hreflang:Wallis and Futuna:French",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-wf\" />"
+		],
+		"description": "Country = Wallis and Futuna. Primary Language = French."
+	},
+	"Samoa hreflang": {
+		"prefix": "hreflang:Samoa:Samoan",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"sm-ws\" />"
+		],
+		"description": "Country = Samoa. Primary Language = Samoan."
+	},
+	"Kosovo hreflang": {
+		"prefix": "hreflang:Kosovo:Albanian",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"sq-xk\" />"
+		],
+		"description": "Country = Kosovo. Primary Language = Albanian."
+	},
+	"Yemen hreflang": {
+		"prefix": "hreflang:Yemen:Arabic",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"ar-ye\" />"
+		],
+		"description": "Country = Yemen. Primary Language = Arabic."
+	},
+	"Mayotte hreflang": {
+		"prefix": "hreflang:Mayotte:French",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"fr-yt\" />"
+		],
+		"description": "Country = Mayotte. Primary Language = French."
+	},
+	"South Africa hreflang": {
+		"prefix": "hreflang:South Africa:Afrikaans",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"af-za\" />"
+		],
+		"description": "Country = South Africa. Primary Language = Afrikaans."
+	},
+	"Zambia hreflang": {
+		"prefix": "hreflang:Zambia:English",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"en-zm\" />"
+		],
+		"description": "Country = Zambia. Primary Language = English."
+	},
+	"Zimbabwe hreflang": {
+		"prefix": "hreflang:Zimbabwe:Shona",
+		"scope": "html",
+		"body": [
+		"<link rel=\"alternate\" href=\"https://www.example.com/\" hreflang=\"sn-zw\" />"
+		],
+		"description": "Country = Zimbabwe. Primary Language = Shona."
+	},
+}

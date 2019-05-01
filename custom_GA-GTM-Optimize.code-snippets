@@ -1,0 +1,115 @@
+{
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"GTM Container Boilerplate": {
+		"prefix": "GTM:Container:Boilerplate",
+		"scope": "html",
+		"body": [
+		  "<!-- Google Tag Manager -->",
+		  "<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':",
+		  "new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],",
+		  "j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=",
+		  "'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);",
+		  "})(window,document,'script','dataLayer','GTM-XXXXXX');</script>",
+		  "<!-- End Google Tag Manager -->"
+		],
+		"description": "Insert boilerplate Google Tag Manager container (place in <head>)."
+	 },
+"GTM noscript Boilerplate": {
+		"prefix": "GTM:noscript:Boilerplate",
+		"scope": "html",
+		"body": [
+			"<!-- Google Tag Manager (noscript) -->",
+			"<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-XXXX\"",
+			"height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>",
+			"<!-- End Google Tag Manager (noscript) -->"
+		 ],
+		"description": "Insert boilerplate Google Tag Manager noscript code (place after opening <body> tag)."
+	 },
+
+"GA Event Interaction": {
+	"prefix": "GA:Event:Interaction",
+	"scope": "html,javascript",
+	"body": [
+		"ga('send', 'event', 'eventCategory', 'eventAction', 'eventLabel', 'eventValue');"
+	],
+	"description": "Code used to send an send an interaction event hit to Google Analytics."
+},
+
+"GA Event nonInteraction": {
+	"prefix": "GA:Event:nonInteraction",
+	"scope": "html,javascript",
+	"body": [
+		"ga('send', 'event', 'eventCategory', 'eventAction', 'eventLabel', 'eventValue', { nonInteraction: true });"
+	],
+	"description": "Code used to send an send a noninteraction event hit to Google Analytics."
+},
+
+"GA Event JSON": {
+	"prefix": "GA:Event:JSON",
+	"scope": "html,javascript",
+	"body": [
+	  "ga('send', {",
+	  "  hitType: 'event',",
+	  "  eventCategory: '$1',",
+	  "  eventAction: '$2',",
+	  "  eventLabel: '$3'",
+	  "});"
+	],
+	"description": "JSON code used to send an event hit to Google Analytics. Wrap with function to fire after an action is taken."
+ },
+
+ "GA Event Click Tracking": {
+	"prefix": "GA:Event:Click Tracking",
+	"scope": "html,javascript",
+	"body": [
+	  "$(document).ready(function(){",
+	  "  $(\"cssSelector\").click(function(){",
+	  "    ga('send', 'event', 'eventCategory', 'eventAction', 'eventLabel', 'eventValue');",
+	  "  });",
+	  "});",
+	],
+	"description": ""
+ },
+
+"Google Optimize Boilerplate Code": {
+	"prefix": "Google Optimize:Boilerplate",
+	"scope": "html",
+	"body": [
+		"<script>",
+		"  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){",
+		"  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),",
+		"  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)",
+		"  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');",
+		"",
+		"  ga('create', 'UA-XXXXXXX-X', 'auto'); // Replace UA-XXXXXXX-X with UA-ID of the GA property you connected to OptimizGA ",
+		"  ga('require', 'GTM-XXXXXX'); // Replace GTM-XXXXXX with your Optimize Continer ID",
+		"</script>"
+	 ],
+	"description": "Google Optimize boilerplate code."
+},
+"Bounce Rate Formula": {
+	"prefix": "bounce rate:data-studio",
+	"scope": "",
+	"body": [
+	"Bounce Rate = Total One-Page Visits/Total Entrance Visits",
+	],
+"description": ""
+}
+}
+
+103792

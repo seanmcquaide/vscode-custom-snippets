@@ -1,0 +1,424 @@
+{
+    "H1": {
+        "prefix": "00:h1",
+        "scope": "markdown",
+        "body": [
+            "# $1",
+        ],
+        "description": "",
+    },
+    "H2": {
+        "prefix": "00:h2",
+        "scope": "markdown",
+        "body": [
+            "## $1",
+        ],
+        "description": ""
+    },
+    "H3": {
+        "prefix": "00:h3",
+        "scope": "markdown",
+        "body": [
+            "### $1",
+        ],
+        "description": ""
+    },
+    "H4": {
+        "prefix": "00:h4",
+        "scope": "markdown",
+        "body": [
+            "#### $1",
+        ],
+        "description": ""
+    },
+    "H5": {
+        "prefix": "00:h5",
+        "scope": "markdown",
+        "body": [
+            "##### $1",
+        ],
+        "description": ""
+    },
+    "H6": {
+        "prefix": "00:h6",
+        "scope": "markdown",
+        "body": [
+            "###### $1",
+        ],
+        "description": ""
+    },
+    "Horizontal Line": {
+        "prefix": "00:hr line",
+        "scope": "markdown",
+        "body": [
+            "======",
+        ],
+        "description": ""
+    },
+    "Basic Link": {
+        "prefix": "00:basic link",
+        "scope": "markdown",
+        "body": [
+        "<$1>",
+        ],
+    "description": "URLs in angle brackets will automatically get turned into links.",
+    },
+    "Inline Link": {
+       "prefix": "00:inline link",
+       "scope": "markdown",
+       "body": [
+           "[$1]($2)",
+       ],
+       "description": "I'm an inline-style link",
+   },
+   "Inline Link w/ Title": {
+       "prefix": "00:inline w title",
+       "scope": "markdown",
+       "body": [
+           "[$1]($2 \"$3\")",
+       ],
+       "description": "I'm an inline-style link with title"
+   },
+    "Image": {
+        "prefix": "00:image",
+        "scope": "markdown",
+        "body": [
+            "![$1]($2)",
+        ],
+        "description": ""
+    },
+    "JavaScript": {
+        "prefix": "00:js code",
+        "scope": "markdown",
+        "body": [
+            "```javascript",
+            "$1",
+            "```",
+        ],
+        "description": ""
+    },
+    "HTML": {
+        "prefix": "00:html code",
+        "scope": "markdown",
+        "body": [
+            "```html",
+            "$1",
+            "```",
+        ],
+        "description": ""
+    },
+    "css": {
+        "prefix": "00:css code",
+        "scope": "markdown",
+        "body": [
+            "```css",
+            "$1",
+            "```",
+        ],
+        "description": ""
+    },
+    "2 Column Table": {
+        "prefix": "00:two column table",
+        "scope": "markdown",
+        "body": [
+            "$1 | $2",
+            "--- | --- |",
+            "$3 | $4",
+        ],
+        "description": "",
+    },
+    "Reference Link": {
+        "prefix": "00:reference link",
+        "scope": "markdown",
+        "body": [
+        " [ref]($1)",
+        ],
+    "description": ""
+    },
+    "Reference Info": {
+        "prefix": "411:reference",
+        "scope": "markdown",
+        "body": [
+          "### Reference",
+          "[Visual Studio Code Markdown Doc](https://code.visualstudio.com/docs/languages/markdown)",
+          "[Github Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)"
+        ],
+        "description": ""
+      },
+    "Emphasis Info": {
+        "prefix": "411:emphasis",
+        "scope": "markdown",
+        "body": [
+          "Alternatively, for H1 and H2, an underline-ish style:",
+          "# Emphasis",
+          "",
+          "Emphasis, aka italics, with *asterisks* or _underscores_.",
+          "",
+          "Strong emphasis, aka bold, with **asterisks** or __underscores__.",
+          "markdown",
+          "",
+          "Combined emphasis with **asterisks and _underscores_**.",
+          "",
+          "Strikethrough uses two tildes. ~~Scratch this.~~"
+        ],
+        "description": ""
+      },
+    "List Info": {
+        "prefix": "411:list",
+        "scope": "markdown",
+        "body": [
+            "# Lists",
+            "(In this example, leading and trailing spaces are shown with with dots: ⋅)",
+            "",
+            "1. First ordered list item",
+            "2. Another item",
+            "⋅⋅* Unordered sub-list.",
+            "1. Actual numbers don't matter, just that it's a number",
+            "⋅⋅1. Ordered sub-list",
+            "4. And another item.",
+            "",
+            "    You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).",
+            "",
+            "    To have a line break without a paragraph, you will need to use two trailing spaces.",
+            "",
+            "    Note that this line is separate, but within the same paragraph.",
+            "",
+            "    (This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)",
+            "",
+            "* Unordered list can use asterisks",
+            "- Or minuses",
+            "+ Or pluses"
+            ],
+    "description": ""
+    },
+    "Image Info": {
+        "prefix": "411:image",
+        "scope": "markdown",
+        "body": [
+          "# Images",
+          "Here's our logo (hover to see the title text):",
+          "",
+          "Inline-style:",
+          "![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png \"Logo Title Text 1\")",
+          "",
+          "Reference-style:",
+          "![alt text][logo]",
+          "",
+          "[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png \"Logo Title Text 2\""
+        ],
+        "description": ""
+      },
+      "Code Info": {
+        "prefix": "411:code",
+        "scope": "markdown",
+        "body": [
+          "# Code and Syntax Highlighting",
+          "Code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like Github's and Markdown Here -- support syntax highlighting. Which languages are supported and how those language names should be written will vary from renderer to renderer. Markdown Here supports highlighting for dozens of languages (and not-really-languages, like diffs and HTTP headers); to see the complete list, and how to write the language names, see the [highlight.js demo page](https://softwaremaniacs.org/media/soft/highlight/test.html).",
+          "",
+          "Inline `code` has `back-ticks around` it.",
+          "",
+          "Blocks of code are either fenced by lines with three back-ticks ```, or are indented with four spaces. I recommend only using the fenced code blocks -- they're easier and only they support syntax highlighting.",
+          "",
+          "```javascript",
+          "var s = \"JavaScript syntax highlighting\";",
+          "alert(s);",
+          "```",
+          "",
+          "```python",
+          "s = \"Python syntax highlighting\"",
+          "print s",
+          "```",
+          "",
+          "```",
+          "No language indicated, so no syntax highlighting.",
+          "But let's throw in a <b>tag</b>.",
+          "```",
+          "var s = \"JavaScript syntax highlighting\";",
+          "alert(s);",
+          "s = \"Python syntax highlighting\"",
+          "print s",
+          "",
+          "No language indicated, so no syntax highlighting in Markdown Here (varies on Github).",
+          "But let's throw in a <b>tag</b>."
+        ],
+        "description": ""
+      },
+      "Table Info": {
+        "prefix": "411:table",
+        "scope": "markdown",
+        "body": [
+          "# Tables",
+          "Tables aren't part of the core Markdown spec, but they are part of GFM and Markdown Here supports them. They are an easy way of adding tables to your email -- a task that would otherwise require copy-pasting from another application.",
+          "",
+          "Colons can be used to align columns.",
+          "",
+          "| Tables        |      Are      |  Cool |",
+          "| ------------- | :-----------: | ----: |",
+          "| col 3 is      | right-aligned | $1600 |",
+          "| col 2 is      |   centered    |   $12 |",
+          "| zebra stripes |   are neat    |    $1 |",
+          "",
+          "There must be at least 3 dashes separating each header cell.",
+          "The outer pipes (|) are optional, and you don't need to make the",
+          "raw Markdown line up prettily. You can also use inline Markdown.",
+          "",
+          "| Markdown | Less      | Pretty     |",
+          "| -------- | --------- | ---------- |",
+          "| *Still*  | `renders` | **nicely** |",
+          "| 1        | 2         | 3          |"
+        ],
+        "description": ""
+      },
+      "Blockquote Info": {
+        "prefix": "411:blockquote",
+        "scope": "markdown",
+        "body": [
+          "# Blockquotes",
+          "> Blockquotes are very handy in email to emulate reply text.",
+          "> This line is part of the same quote.",
+          "",
+          "Quote break.",
+          "",
+          "> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote."
+        ],
+        "description": ""
+      },
+      "Inline HTML Info": {
+        "prefix": "411:html-inline",
+        "scope": "markdown",
+        "body": [
+          "# Inline HTML",
+          "You can also use raw HTML in your Markdown, and it'll mostly work pretty well.",
+          "",
+          "<dl>",
+          "  <dt>Definition list</dt>",
+          "  <dd>Is something people use sometimes.</dd>",
+          "",
+          "  <dt>Markdown in HTML</dt>",
+          "  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>",
+          "</dl>"
+        ],
+        "description": ""
+    },
+    "Horizontal Rule Info": {
+        "prefix": "411:HR",
+        "scope": "markdown",
+        "body": [
+          "# Horizontal Rule",
+          "Three or more hyphens (-), astrisks (*), or underscores (_):",
+          "",
+          "---",
+          "",
+          "***",
+          "___"
+        ],
+        "description": ""
+      },
+      "Line Break Info": {
+        "prefix": "411:line-break",
+        "scope": "markdown",
+        "body": [
+          "# Line Breaks",
+          "My basic recommendation for learning how line breaks work is to experiment and discover -- hit <Enter> once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), see what happens. You'll soon learn to get what you want. \"Markdown Toggle\" is your friend.",
+          "",
+          "Here are some things to try out:",
+          "",
+          "Here's a line for us to start with.",
+          "",
+          "This line is separated from the one above by two newlines, so it will be a *separate paragraph*.",
+          "",
+          "This line is also a separate paragraph, but...",
+          "This line is only separated by a single newline, so it's a separate line in the *same paragraph*."
+        ],
+        "description": ""
+      },
+      "YouTube Info": {
+        "prefix": "411:youtube",
+        "scope": "markdown",
+        "body": [
+          "# YouTube Videos",
+          "They can't be added directly but you can add an image with a link to the video like this:",
+          "",
+          "<a href=\"https://www.youtube.com/watch?v=h2gt-PN5-Hg\" target=\"_blank\"><img src=\"https://i.ytimg.com/an_webp/h2gt-PN5-Hg/mqdefault_6s.webp?du=3000&sqp=CKj6kd4F&rs=AOn4CLDvIsk0wNg5InO4dQLPqY0p1N-L1A\" alt=\"IMAGE ALT TEXT HERE\" width=\"240\" height=\"180\" border=\"10\" /></a>"
+        ],
+        "description": ""
+      },
+      "Placeholders Info": {
+          "prefix": "411:placeholder",
+          "scope": "markdown",
+          "body": [
+          "Placeholders",
+          "Placeholders are tabstops with values, like ${1:foo}. The placeholder text will be inserted and selected such that it can be easily changed. Placeholders can be nested, like ${1:another ${2:placeholder}}.",
+          ],
+      "description": ""
+      },
+      "Client Notes": {
+          "prefix": "00:notesClient",
+          "scope": "markdown",
+          "body": [
+          "----------",
+          "",
+          "## ${1:clientName} - ${2:meetingType} - ${CURRENT_YEAR}${CURRENT_MONTH}${CURRENT_DATE}",
+          "",
+          "----------",
+          "### $3",
+          "- $4",
+          ],
+      "description": "Client Name - YYYMMDD + subheading + bullet list."
+      },
+      "Client To-Dos": {
+          "prefix": "00:clientToDo",
+          "scope": "markdown",
+          "body": [
+            "----------",
+            "----------",
+            "",
+            "## ${1:clientName} - ${2:meetingType} - ${CURRENT_YEAR}${CURRENT_MONTH}${CURRENT_DATE}",
+            "",
+            "### To-Do",
+            "- [ ] $3",
+            "- [ ] $4",
+          ],
+      "description": "Client Name - YYYMMDD + subheading + bullet list."
+    },
+      "Regular To-Do": {
+          "prefix": "00:normalToDo",
+          "scope": "markdown",
+          "body": [
+            "### To-Do",
+            "- [ ] $1",
+            "- [ ] $2",
+          ],
+      "description": "H3 + two to-do boxes."
+      },
+    "Task Item": {
+        "prefix": "new task item",
+        "scope": "markdown",
+        "body": [
+          "### ${1:Task Title}",
+          "",
+          "#### Description",
+          "${2:Bounteous or Client} wants ${3:requested work} so that ${4:goal of this work and the value it provides}.",
+          "",
+          "#### Acceptance Criteria",
+          "${5:Conditions that the work must satisfy to be accepted by a client or other stakeholder.}",
+          "",
+          "#### Definition of Done",
+          "${6:Describes the requirements that must be met in order for the work to be complete.}",
+          "",
+          "#### Other Items",
+          "* ${7:Attachments}",
+          "* Reviewer: ${8:Review Name}",
+          "* Est. Hours: ${9:hours}"
+        ],
+    "description": ""
+    },
+    "Today's Date": {
+        "prefix": "todays date",
+        "scope": "markdown",
+        "body": [
+        "${CURRENT_YEAR}${CURRENT_MONTH}${CURRENT_DATE}",
+        ],
+    "description": "Inserts todays date in YYYYMMDD."
+    }
+ }
